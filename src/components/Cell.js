@@ -24,7 +24,7 @@ const handleClick = props.handleClick
    * - set the onClick property to be equal to the handleClick function
    *    passed in with the props
    */
-  return <div className= {`cell ${isActive}`}style={{backgroundColor: "lightblue"}} ></div>
+  return <div onClick={handleClick} className= {`cell ${isActive}`} style= {`backgroundColor: ${color};`}  ></div>
 
 }
 
