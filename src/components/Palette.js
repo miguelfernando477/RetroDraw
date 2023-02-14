@@ -13,7 +13,7 @@ const Palette = (props) => {
   /**
    * Create constants for activeColor and setActiveColor, reading the value off of the props
    */
-
+  
 
   /**
    * For the template, you need to:
